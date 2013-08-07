@@ -1,2 +1,2 @@
 a
-.. codekata: http://vipprog.net/wiki/exercise.html
+.. _codekata: http://vipprog.net/wiki/exercise.html
