@@ -15,14 +15,21 @@
  ------------------------------------------------------------------------
 """
 
-for i in range(1, 35):
-    if i % 3 == 0 and i % 5 == 0:
-        print "FizzBuzz",
-    else:        
-        if i % 3 == 0:
-            print "Fizz", 
-        else:
-            if i % 5 == 0:
-                print "Buzz",
-            else:
-                print i,
+count = raw_input("input number : ") 
+if count.isdigit() == False or int(count) == 0:
+    print "整数値、又は0以上を入力してください"
+    quit()
+
+for i in range(1, int(count) + 1):
+    result = ""
+    
+    if i % 3 == 0:
+        result += "Fizz"
+        
+    if i % 5 == 0:
+        result += "Buzz"
+        
+    if result == "":
+        print i,
+    else:
+        print result,
