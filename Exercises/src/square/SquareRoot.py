@@ -10,9 +10,9 @@ class SquareRoot:
     float_count = 0.0
     
     # コンストラクタ
-    def __init__(self): 
+    def __init__(self, number): 
         # 値の入力 & float型に変換
-        self.float_count = float(input('input number : '))
+        self.float_count = float(number)
     
     # 平方根の計算
     def calculate_square(self):

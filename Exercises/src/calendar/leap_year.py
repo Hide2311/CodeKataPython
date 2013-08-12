@@ -23,3 +23,5 @@ class LeapYear:
             print self.int_year, '年はうるう年です'
         else:
             print self.int_year, '年はうるう年ではありません'
+            
+        return True
