@@ -5,7 +5,11 @@ class Hanoi:
     global int_count
     
     def __init__(self, count):
-        self.int_count = int(count);
+        try:
+            self.int_count = int(count);
+        except Exception:
+            print '入力が無効です'
+            quit()
     
     def hanoi(self, n, from_, to, via):
         if n == 1:
@@ -16,5 +20,10 @@ class Hanoi:
             self.hanoi(n - 1, via, to, from_)
             
     def start(self):
-        self.hanoi(self.int_count, 'A', 'B', 'C')
+        
+        try:
+            self.hanoi(self.int_count, 'A', 'B', 'C')
+        except RuntimeError:
+            print '数値が大き過ぎます'
+            return None
         

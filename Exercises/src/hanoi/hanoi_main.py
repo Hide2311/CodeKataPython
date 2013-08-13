@@ -2,10 +2,6 @@
 
 import hanoi
 
-# デコレーションチェック
-       
-#hanoi(4,'A','B','C')
-
 class HanoiMain:
     if __name__ == "__main__":
         
