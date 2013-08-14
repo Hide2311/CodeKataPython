@@ -4,6 +4,6 @@ $ cat .gitignore
 !.gitignore
 !.project
 !.pydevproject
-!.settings
+
 
 
