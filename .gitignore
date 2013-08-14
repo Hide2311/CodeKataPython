@@ -1,0 +1,8 @@
+$ cat .gitignore
+
+# íœ
+.*
+*.pyc
+
+# ŠÇ—
+!.gitignore
