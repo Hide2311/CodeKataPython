@@ -31,5 +31,7 @@ for i in range(1, int(count) + 1):
         
     if result == "":
         print i,
+        del i
     else:
         print result,
+        del result
