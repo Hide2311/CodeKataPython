@@ -1,8 +1,9 @@
 $ cat .gitignore
-
-# íœ
 .*
-*.pyc
 
-# ŠÇ—
 !.gitignore
+!.project
+!.pydevproject
+!.settings
+
+
